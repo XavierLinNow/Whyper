@@ -58,6 +58,9 @@ public class Speech
 		synthesizer.waitEngineState(Synthesizer.QUEUE_EMPTY);
 	}
 	
+	/**
+	 * Example function to invoke freeTTS Speech
+	 */
 	public static void speak(String text) throws Exception
 	{
 		Speech su = new Speech();
